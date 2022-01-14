@@ -1,0 +1,20 @@
+{
+    "name": "tekrajs/etsy",
+    "description": "Etsy Api SDK",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Tekraj Shrestha",
+            "email": "shrestharj64@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tekrajs\\Etsy\\": "src/etsy"
+        }
+    }
+}
